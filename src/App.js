@@ -1,5 +1,5 @@
-import "./App.css";
 import { useState, useEffect } from "react";
+import "./App.css";
 import Activity from "./components/Activity";
 function App() {
   const [showActivity, setShowActivity] = useState(false);
@@ -10,7 +10,6 @@ function App() {
       .then((response) => response.json())
       .then((json) => setActivities(json));
   }, [showActivity]);
-  console.log(activities);
 
   return (
     <div className="App">

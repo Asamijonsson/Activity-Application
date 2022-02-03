@@ -17,7 +17,7 @@ const Activity = ({ activities, showActivity, setShowActivity }) => {
       setValue(false);
     }
   };
-  console.log(value);
+
   return (
     <div>
       <h3>Choose participants</h3>
